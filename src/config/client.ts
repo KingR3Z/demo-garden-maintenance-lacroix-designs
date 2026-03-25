@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Elizabeth K", rating: 5, text: "Horrendous, avoid avoid avoid. Alexandre mismanaged the entire project we hired him to do and we had to hire another company to redo everything. He took no responsibility for the multiple errors made and went so far to point the finger at …  ", date: "3 years ago" },
+    { name: "Luposche", rating: 5, text: "Absolutely amazing customer service and a wonderfully executed job, so pleased with my experience! Alex is a trustworthy, friendly and extremely talented landscaper, handling everything in such a calm and professional manor, great price …  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
